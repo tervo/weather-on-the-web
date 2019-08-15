@@ -61,11 +61,11 @@ Please feel free to forward this announcement to any other appropriate lists. Th
 
 == Purpose of the Standards Working Group
 
-The Environmental Data Retrieval API Standards Working Group will standardise some APIs, defined with OpenAPI Version 3, to retrieve various commmon data patterns from a data store. The data patterns will include, but are not restricted to, data at a point in space and time, time series at a point, data along a trajectory, which may be 2, 3, or 4 dimensional, and covering a specified polygon or rectangular tile.  
+The Environmental Data Retrieval API Standards Working Group will standardise some APIs, defined with OpenAPI Version 3, to retrieve various commmon data patterns from a data store. The data patterns will include, but are not restricted to, data at a point in space and time, time series at a point, data along a trajectory, which may be 2, 3, or 4 dimensional, and covering a specified polygon or rectangular tile.
 
 == Business Value Proposition
 
-Much environmental data is truly 'Big Data', in that it cannot be readily copied and distributed in sensible timescales for many uses. By specifying precisely just the data required in a convenient pattern familiar to the user, a service provider can extract and serve the requested data, simplying access for the user, and hiding the service implementation details, while being scaleable both in terms of the underlying data volumes and the number of supported simultaneous users. 
+Much environmental data is truly 'Big Data', in that it cannot be readily copied and distributed in sensible timescales for many uses. By specifying precisely just the data required in a convenient pattern familiar to the user, a service provider can extract and serve the requested data, simplying access for the user, and hiding the service implementation details, while being scaleable both in terms of the underlying data volumes and the number of supported simultaneous users.
 
 By using stable, standardised, service APIs based on simple data retrieval patterns, it is envisaged that access and use of data and information will be improved in different domains, including geospatial, facilitating more innovation and value.
 
@@ -77,11 +77,11 @@ The service APIs will support both traditional and cloud-based approaches to com
 
 The original requirements for this standard were evolved in the Met Ocean Domain Working Group as the Weather on the Web (WotW), but many of the data patterns are applicable in other environmental sciences, or even other domains. The data retrieval patterns to access weather and climate data have been stable for many years. Such patterns include, but are not restricted to, point data, time-series at a point, vertical profiles, trajectories (whether in 2, 3 or 4 dimensions), polygons, or rectangular tiles.
 
-There are two main use cases: 
+There are two main use cases:
 
 1. An end user requires some convenient data for a specific, familiar purpose, such as a forecast surface temperature at a point or over an area, or a timeseries of water flow at a river location, or wind speed and direction along a proposed trajectory or route, but the user does not need the full range of data that modern weather or climate predictions, or other Big Data systems, engender.
 
-2. A service provider of many value-added products and information services needs an architecture that decouples the provision of data to many evolving distributed applications from the underlying stable, operational, centralised bulk data production systems. 
+2. A service provider of many value-added products and information services needs an architecture that decouples the provision of data to many evolving distributed applications from the underlying stable, operational, centralised bulk data production systems.
 
 The underlying bulk data may be based on regular calculation grids, or may be point-cloud observation based, or other structures.
 
@@ -91,7 +91,7 @@ Queries against the service endpoints using the APIs will return all the informa
 
 There is no OGC standard directly addressing these requirements.
 
-It is proposed to use the OpenAPI Version 3 framework to define the APIs, which is consistent with the "OGC API - Features". Previous experiments, proof-of-concepts and prototyping work have confirmed the feasibility of a consistent approach. 
+It is proposed to use the OpenAPI Version 3 framework to define the APIs, which is consistent with the "OGC API - Features". Previous experiments, proof-of-concepts and prototyping work have confirmed the feasibility of a consistent approach.
 
 It is planned that once the SWG is established, a candidate standard will be developed within one year.
 
@@ -185,7 +185,7 @@ There may be the possibility of collaboration with the Research Data Alliance (R
 
 The UK Government has mandated the use of OpenAPI Version 3 as a national standard for documenting government RESTful APIs.
 
-The Netherlands Government is working towards standardising access to geopsatial data with APIs. https://geonovum.github.io/KP-APIs/#api-designrules 
+The Netherlands Government is working towards standardising access to geopsatial data with APIs. https://geonovum.github.io/KP-APIs/#api-designrules
 
 === Details of first meeting
 
@@ -208,6 +208,7 @@ The following people support this proposal and are committed to the Charter and 
 |Frédéric Guillaud|Météo-France
 |Dave Blodgett    |US Geological Survey
 |Tom Kralidis     |Meteorological Service of Canada
+|Roope Tervo      |Finnish Meteorological Institute
 |===
 
 === Conveners
